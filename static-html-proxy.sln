@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "static-html-proxy", "static-html-proxy\static-html-proxy.csproj", "{76B30A89-314F-4141-92A7-F3DCA29638DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "static-html-proxy", "static-html-proxy\static-html-proxy.csproj", "{76B30A89-314F-4141-92A7-F3DCA29638DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
