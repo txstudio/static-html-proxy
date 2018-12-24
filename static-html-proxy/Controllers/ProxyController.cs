@@ -21,12 +21,13 @@ namespace static_html_proxy.Controllers
         }
 
 
-
+        [ResponseCache(Duration = 2592000)]
         public IActionResult Css(string id)
         {
             return Content(this.GetContent(id), style_header);
         }
 
+        [ResponseCache(Duration = 2592000)]
         public IActionResult Js(string id)
         {
             return Content(this.GetContent(id), js_header);
