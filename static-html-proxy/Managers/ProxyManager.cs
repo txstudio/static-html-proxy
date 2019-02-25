@@ -48,8 +48,8 @@ namespace static_html_proxy
 
         protected override void SetDictionary(Dictionary<string, string> dictionary)
         {
-            dictionary.Add("txstudio-style", "https://raw.githubusercontent.com/txstudio/blogspot-image/master/style.css");
-            dictionary.Add("txstudio-js", "https://raw.githubusercontent.com/txstudio/blogspot-image/master/main.js");
+            dictionary.Add("txstudio-style", "https://raw.githubusercontent.com/txstudio/blog-custom-files/master/style.css");
+            dictionary.Add("txstudio-js", "https://raw.githubusercontent.com/txstudio/blog-custom-files/master/main.js");
         }
 
     }
